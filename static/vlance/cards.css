@@ -1,0 +1,130 @@
+.holder {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    background-image: url("/static/vlance/assets/again1.jpeg");
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 0%;
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    background: rgba(255, 255, 255, .09);
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    flex-direction: column;
+    border: #8C8C8C 2px solid;
+}
+
+.cards:hover {
+    transform: scale(1.07);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.d1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.d2 {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.d3 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.d4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.name {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 600;
+    background: rgba(255, 255, 255, .12);
+    
+}
+
+.posted {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 13px;
+    color: black;
+    background: rgba(255, 255, 255, .12);
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.amount {
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, .12);
+    color: whitesmoke;
+    font-weight: 600;
+    
+}
+
+.deadline {
+    width: 85%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    background: rgba(255, 255, 255, .12);
+    font-weight: 600;
+}
+
+.show-more {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1.3%;
+    padding-left: 3%;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.25vw;
+    background: linear-gradient(to right,#196BCA ,#6433E0);
+    
+}
+
+.show-more a{
+    text-decoration: none;
+}

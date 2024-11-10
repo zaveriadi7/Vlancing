@@ -1,0 +1,32 @@
+/* header css start*/
+
+body{
+   font-weight: montsterrat; 
+   background-color: black;
+}
+
+.headername{
+    font-family: var(--font-family-base),"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    font-size: 40px;
+    letter-spacing: -3.4px;
+    word-spacing: 3px;
+    color:white;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+
+    display: inline-block;
+    margin-left: auto;
+    margin-top:auto;
+    margin-left:50px;
+}
+.header{
+    background-color:black;
+    padding: 10px;
+    height: 80px;
+    background-size: cover;
+
+}
+
